@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rerum
+Comment=Gestão de imóveis e aluguéis
+Exec=@LAUNCHER@
+Icon=rerum
+Terminal=false
+StartupNotify=true
+StartupWMClass=Rerum-app
+Categories=Office;Finance;
+Keywords=aluguel;imóveis;locação;financeiro;

@@ -1,0 +1,28 @@
+# Local databases, sidecars, backups, receipts, and exports
+/data/
+/backup/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+**/recibos/
+*.pdf
+*.csv
+
+# Private source workbooks stay local; importer tests generate synthetic fixtures
+/references/*.xlsx
+/references/*.xlsm
+
+# Local configuration and generated binaries
+.env
+.env.*
+/backend/rerum-backend
+/build/
+/dist/
+node_modules/
+.DS_Store
+
+# Other files
+.codegraph/

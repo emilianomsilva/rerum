@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "rerum",
+  "outputfilename": "wails-app",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Emiliano M. Silva",
+    "email": "65798284+emilianomsilva@users.noreply.github.com"
+  }
+}
